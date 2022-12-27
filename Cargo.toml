@@ -30,6 +30,7 @@ wasmtime-wast = { workspace = true }
 wasmtime-wasi = { workspace = true }
 wasmtime-wasi-crypto = { workspace = true, optional = true }
 wasmtime-wasi-nn = { workspace = true, optional = true }
+wasi-experimental-http-wasmtime = { workspace = true }
 clap = { workspace = true, features = ["color", "suggestions", "derive"] }
 anyhow = { workspace = true }
 target-lexicon = { workspace = true }
@@ -123,6 +124,7 @@ wasmtime-wasi-nn = { path = "crates/wasi-nn", version = "4.0.0" }
 wasmtime-component-util = { path = "crates/component-util", version = "=4.0.0" }
 wasmtime-component-macro = { path = "crates/component-macro", version = "=4.0.0" }
 wasmtime-asm-macros = { path = "crates/asm-macros", version = "=4.0.0" }
+wasi-experimental-http-wasmtime = { path = "crates/wasi-experimental-http-wasmtime", version = "=0.10.0" }
 component-test-util = { path = "crates/misc/component-test-util" }
 component-fuzz-util = { path = "crates/misc/component-fuzz-util" }
 wiggle = { path = "crates/wiggle", version = "=4.0.0", default-features = false }
